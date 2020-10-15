@@ -13,11 +13,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
-add_executable(ChessProject
-  main.cpp
-  mainwindow.cpp
-  mainwindow.h
-  mainwindow.ui
+
+file(GLOB files "*.h" "*.cpp" "*.ui" "*.qrc")
+
+add_executable(ChessProject main.cpp ${files}
 )
 
 target_link_libraries(ChessProject PRIVATE Qt5::Widgets)

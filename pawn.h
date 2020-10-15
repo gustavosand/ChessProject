@@ -1,13 +1,14 @@
 #ifndef PAWN_H
 #define PAWN_H
 
-#include <QWidget>
+#include "piece.h"
+#include "square.h"
 
-class Pawn : public QWidget
+class Pawn : public Piece
 {
     Q_OBJECT
 public:
-    explicit Pawn(QWidget *parent = nullptr);
+    explicit Pawn(char team, Square *parent = nullptr);
 
 signals:
 

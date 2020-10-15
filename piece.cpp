@@ -1,6 +1,7 @@
 #include "piece.h"
 
-Piece::Piece(QWidget *parent) : QWidget(parent)
+Piece::Piece(QWidget *parent) :
+    QLabel(parent)
 {
 
 }

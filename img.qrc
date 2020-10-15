@@ -1,2 +1,20 @@
-<!DOCTYPE RCC>
-<RCC version="1.0"/>
+<RCC>
+    <qresource prefix="/new/img">
+        <file>img/size.jpg</file>
+        <file>img/chess.jpg</file>
+        <file>img/pown_b.png</file>
+        <file>img/board_brown.png</file>
+        <file>img/size2.jpg</file>
+        <file>img/bishop_b.png</file>
+        <file>img/bishop_w.png</file>
+        <file>img/king_b.png</file>
+        <file>img/king_w.png</file>
+        <file>img/knight_b.png</file>
+        <file>img/knight_w.png</file>
+        <file>img/pown_w.png</file>
+        <file>img/queen_b.png</file>
+        <file>img/queen_w.png</file>
+        <file>img/rook_b.png</file>
+        <file>img/rook_w.png</file>
+    </qresource>
+</RCC>
