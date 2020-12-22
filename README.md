@@ -1,2 +1,2 @@
 # ChessProject
-- Huarca Thea Eder Gustavo, Quispe Huaman Emerson 
+- Huarca Thea Eder Gustavo
