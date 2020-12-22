@@ -8,10 +8,10 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt5 COMPONENTS Widgets REQUIRED)
+find_package(Qt5 COMPONENTS Widgets Multimedia REQUIRED)
 
 
 file(GLOB files "*.h" "*.cpp" "*.ui" "*.qrc")
@@ -19,4 +19,4 @@ file(GLOB files "*.h" "*.cpp" "*.ui" "*.qrc")
 add_executable(ChessProject main.cpp ${files}
 )
 
-target_link_libraries(ChessProject PRIVATE Qt5::Widgets)
+target_link_libraries(ChessProject PRIVATE Qt5::Widgets Qt5::Multimedia)

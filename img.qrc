@@ -16,5 +16,19 @@
         <file>img/queen_w.png</file>
         <file>img/rook_b.png</file>
         <file>img/rook_w.png</file>
+        <file>img/home.jpg</file>
+        <file>img/background.jpg</file>
+        <file>img/cursor.png</file>
+        <file>img/end.jpg</file>
+        <file>img/blackPawn.png</file>
+        <file>img/whitePawn.png</file>
+        <file>img/crown.jpg</file>
+        <file>img/rematch.jpg</file>
+        <file>img/captured.png</file>
+        <file>img/resigning.png</file>
+    </qresource>
+    <qresource prefix="/new/sounds">
+        <file>sounds/checkmate.wav</file>
+        <file>sounds/move.wav</file>
     </qresource>
 </RCC>

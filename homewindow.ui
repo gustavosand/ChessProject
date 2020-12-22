@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HomeWindow</class>
+ <widget class="QMainWindow" name="HomeWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow#HomeWindow{
+
+	background-image: url(:/new/img/img/home.jpg);
+}
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="PlayNormalMode">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>140</y>
+      <width>381</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: black;
+background-image: url(:/new/img/img/home.jpg);
+border-width: 1px;
+border-color: #339;
+border-style: solid;
+border-radius: 7;
+padding: 3px;
+padding-left: 5px;
+padding-right: 5px;
+font:bold;
+font-family:Vrinda;
+}
+
+QPushButton:hover{
+color: white;
+background-image: url(:/new/img/img/home.jpg);
+border-width: 2px;
+border-color: #339;
+border-style: solid;
+border-radius: 7;
+padding: 3px;
+padding-left: 5px;
+padding-right: 5px;
+font:bold;
+font-family:Vrinda;
+}
+
+
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>JUGAR MODO NORMAL</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exit">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>320</y>
+      <width>381</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: black;
+background-image: url(:/new/img/img/home.jpg);
+border-width: 1px;
+border-color: #339;
+border-style: solid;
+border-radius: 7;
+padding: 3px;
+padding-left: 5px;
+padding-right: 5px;
+font:bold;
+font-family:Vrinda;
+}
+
+QPushButton:hover{
+color: white;
+background-image: url(:/new/img/img/home.jpg);
+border-width: 2px;
+border-color: #339;
+border-style: solid;
+border-radius: 7;
+padding: 3px;
+padding-left: 5px;
+padding-right: 5px;
+font:bold;
+font-family:Vrinda;
+}
+
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Salir</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>30</y>
+      <width>381</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>OpineHeavy</family>
+      <pointsize>27</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>AJEDREZ</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PlayTimerMode">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>200</y>
+      <width>381</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: black;
+background-image: url(:/new/img/img/home.jpg);
+border-width: 1px;
+border-color: #339;
+border-style: solid;
+border-radius: 7;
+padding: 3px;
+padding-left: 5px;
+padding-right: 5px;
+font:bold;
+font-family:Vrinda;
+}
+
+QPushButton:hover{
+color: white;
+background-image: url(:/new/img/img/home.jpg);
+border-width: 2px;
+border-color: #339;
+border-style: solid;
+border-radius: 7;
+padding: 3px;
+padding-left: 5px;
+padding-right: 5px;
+font:bold;
+font-family:Vrinda;
+}
+
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>JUGAR MODO CON TIEMPO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="about">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>260</y>
+      <width>381</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: black;
+background-image: url(:/new/img/img/home.jpg);
+border-width: 1px;
+border-color: #339;
+border-style: solid;
+border-radius: 7;
+padding: 3px;
+padding-left: 5px;
+padding-right: 5px;
+font:bold;
+font-family:Vrinda;
+}
+
+QPushButton:hover{
+color: white;
+background-image: url(:/new/img/img/home.jpg);
+border-width: 2px;
+border-color: #339;
+border-style: solid;
+border-radius: 7;
+padding: 3px;
+padding-left: 5px;
+padding-right: 5px;
+font:bold;
+font-family:Vrinda;
+}
+
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Acerca de</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
