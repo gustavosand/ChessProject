@@ -107,6 +107,7 @@ MainWindow::MainWindow(QWidget *parent, bool timerMode)
     Match::wTurn=ui->wT;
     Match::bTurn->hide();
     Match::TURN=Piece::WHITE;
+    Match::MOVEMENTNUMBER=1;
 
 
     if(Match::TIMERMODE){

@@ -78,10 +78,10 @@ void Square::mousePressEvent(QMouseEvent *event)
         auto s=static_cast<Square*>(t);
         QString fila;
         if(Match::TURN==Piece::WHITE){
-            fila=QString::number(movementNumber)+". "+namePiece+Match::MOVEMENTCAPTURE+nameY+nameX+"   ";
+            fila=QString::number(movementNumber)+". "+namePiece+Match::MOVEMENTCAPTURE+s->nameY+s->nameX+"   ";
             Match::LOGGAME->appendPlainText(fila);
         }else{
-            fila=namePiece+QString(Match::MOVEMENTCAPTURE)+nameY+nameX+"\n";
+            fila=namePiece+QString(Match::MOVEMENTCAPTURE)+s->nameY+s->nameX+"\n";
 
             Match::LOGGAME->moveCursor(QTextCursor::End, QTextCursor::MoveAnchor);
             Match::LOGGAME->insertPlainText(fila);
