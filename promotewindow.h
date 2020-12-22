@@ -1,3 +1,11 @@
+/**
+  * @file promotewindow.h
+  * @version 1.0
+  * @author Huarca Thea Eder
+  * @title Clase PromoteWindow
+  * @brief Clase para la interfaz de la promocion de un Peon
+  */
+
 #ifndef PROMOTEWINDOW_H
 #define PROMOTEWINDOW_H
 

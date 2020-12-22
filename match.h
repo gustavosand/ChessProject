@@ -1,3 +1,11 @@
+/**
+  * @file match.h
+  * @version 1.0
+  * @author Huarca Thea Eder
+  * @title Clase Match
+  * @brief Clase que guarda varibles staticas necesarias para el juego
+  */
+
 #ifndef MATCH_H
 #define MATCH_H
 #include "piece.h"

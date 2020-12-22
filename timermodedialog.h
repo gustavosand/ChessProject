@@ -1,3 +1,11 @@
+/**
+  * @file timermodedialog.h
+  * @version 1.0
+  * @author Huarca Thea Eder
+  * @title Clase TimerModeDialog
+  * @brief Clase para la interfaz del dialog de seleccion de tiempo
+  */
+
 #ifndef TIMERMODEDIALOG_H
 #define TIMERMODEDIALOG_H
 

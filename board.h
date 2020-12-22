@@ -1,3 +1,11 @@
+/**
+  * @file board.h
+  * @version 1.0
+  * @author Huarca Thea Eder
+  * @title Clase Board
+  * @brief Clase que representa un tablero
+  */
+
 #ifndef BOARD_H
 #define BOARD_H
 
@@ -25,8 +33,15 @@ public:
     Player* playerBlack;
     QLabel* checkAlert;
 
+    /**
+     * @brief allUnpaint: Metodo que limpia el fondo de las casillas del tablero
+     */
     void allUnpaint();
 
+    /**
+     * @brief Board: Constructor explicito de la clase Board
+     * @param parent para colocar el tablero
+     */
     explicit Board(QWidget *parent = nullptr);
     ~Board();
 

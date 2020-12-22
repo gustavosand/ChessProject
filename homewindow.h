@@ -1,3 +1,11 @@
+/**
+  * @file homewindow.h
+  * @version 1.0
+  * @author Huarca Thea Eder
+  * @title Clase HomeWindow
+  * @brief Clase para la interfaz principal
+  */
+
 #ifndef HOMEWINDOW_H
 #define HOMEWINDOW_H
 

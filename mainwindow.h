@@ -1,3 +1,11 @@
+/**
+  * @file mainwindow.h
+  * @version 1.0
+  * @author Huarca Thea Eder
+  * @title Clase MainWindow
+  * @brief Clase para la interfaz del desarrollo juego
+  */
+
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
